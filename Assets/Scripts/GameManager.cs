@@ -35,9 +35,9 @@ public class GameManager : MonoBehaviour
 
     private void ResetState() {
         for (int i = 0; i < ghosts.Length; i++) {
-            ghosts[i].gameObject.SetActive(true);
+            ghosts[i].ResetState();
         }
-        pacman.gameObject.SetActive(true);
+        pacman.ResetState();
 
         ResetGhostPointsMultiplier();
     }
