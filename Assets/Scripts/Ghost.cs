@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
 public class Ghost : MonoBehaviour
 {
     public Movement movement { get; private set; }
