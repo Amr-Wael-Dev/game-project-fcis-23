@@ -10637,6 +10637,10 @@ PrefabInstance:
       propertyPath: pacman
       value: 
       objectReference: {fileID: 1478020236}
+    - target: {fileID: 5228051320452848442, guid: 02fb41762cc53774fa2146257a141e7f, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5228051320452848443, guid: 02fb41762cc53774fa2146257a141e7f, type: 3}
       propertyPath: m_RootOrder
       value: 5
